@@ -1,6 +1,6 @@
 #Loader
 
-At the beginning of a round, the parsed output of each [warrior](warriors) is loaded into the [core](core).  Warriors are loaded into core at randomly selected addresses but are gauranteed no to be loaded closer than the [Minimum Separation](match_settings#minimum-separation) specified in the [Match Settings](match_settings).
+At the beginning of a round, the parsed output of each [warrior](warriors) is loaded into the [core](core).  Warriors are loaded into core at randomly selected addresses but are guaranteed not to be loaded closer than the [Minimum Separation](match_settings#minimum-separation) specified in the [Match Settings](match_settings).
 
 Because warriors are loaded to a random address, successive rounds with the same warriors can have drastically different results.  For this reason, matches between warrios are usually conducted over a number of rounds large enough to give a fair representation of each warrior's performance, removing the effect of 'lucky' wins.
 
